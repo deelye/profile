@@ -1,0 +1,57 @@
+body {
+  font-family: 'PT Serif', serif;
+  color: rgb(50, 50, 50);
+  background-color: rgb(240, 240, 240);
+}
+
+.profile-pic {
+  max-width: 240px;
+  max-height: 240px;
+  border-radius: 50%;
+  padding: 24px;
+}
+
+.container {
+  width: 720px;
+  margin: 50px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+.card-white {
+  display: flex;
+  background-color: white;
+  box-shadow: 3px 3px 5px rgb(200, 200, 200);
+  border-radius: 5px;
+}
+
+.info {
+  margin-left: 24px;
+  padding: 16px;
+}
+
+.logo {
+  width: 20px;
+}
+
+.icons {
+  color: rgb(150, 150, 150);
+  list-style: none;
+  padding-left: 0px;
+}
+
+.icons:hover {
+  color: rgb(80, 80, 80);
+}
+
+ul.icons {
+  display: inline-flex;
+}
+
+li {
+  margin-right: 10px;
+}
